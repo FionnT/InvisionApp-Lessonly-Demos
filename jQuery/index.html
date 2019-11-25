@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>A jQuery Example</title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="counter">Zero</div>
+    <button>Increment</button>
+  </body>
+  <script>
+    $("button").on("click", function() {
+      var counter = $("#counter");
+      var current_number = parseInt(counter.text());
+      if (current_number) {
+        counter.text(current_number + 1);
+      } else {
+        counter.text(1);
+      }
+    });
+  </script>
+</html>

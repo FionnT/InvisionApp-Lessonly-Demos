@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>A Vanilla Javascript Example</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="counter">Zero</div>
+    <button>Increment</button>
+  </body>
+  <script>
+    var count = document.getElementById("counter");
+    var button = document.getElementsByTagName("button")[0];
+    button.addEventListener("click", function() {
+      var current_number = parseInt(count.innerHTML);
+      if (current_number) {
+        count.innerHTML = current_number + 1;
+      } else {
+        count.innerHTML = 1;
+      }
+    });
+  </script>
+</html>
