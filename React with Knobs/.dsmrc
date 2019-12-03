@@ -1,0 +1,7 @@
+{
+  "authToken": "S12XhjPPH",
+  "dsmHost": "projects.invisionapp.com",
+  "organization": "scavenger-hunt-v-3",
+  "outputDir": ".dsm",
+  "storyPath": "src/**/*.{js,ts}"
+}

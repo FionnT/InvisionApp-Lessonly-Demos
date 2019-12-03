@@ -1,0 +1,8 @@
+As this example uses Storybook and React, we'll need to build it before we can view it. 
+
+There's some demo projects for you at the end of the React section, so don't get messing with this just yet :) 
+
+Run the below commands in order, executing from inside this directory: 
+
+1. npm install
+2. npm run storybook
